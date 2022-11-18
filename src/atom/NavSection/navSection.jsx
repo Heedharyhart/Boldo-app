@@ -16,7 +16,7 @@ const NavSection = () => {
               non-disclosure.
             </h6>
             <Button className="template_btn">Buy template </Button>
-            <Button className="explore_btn">Buy template </Button>
+            <Button className="explore_btn">Explore </Button>
           </div>
           <div className="showcase__img">
             <img

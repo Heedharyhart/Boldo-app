@@ -41,7 +41,6 @@ const ConnectSection = () => {
             </div>
           ))}
           <Button className="startNow-btn">Start Now</Button>
-          {/* <button>Start now</button> */}
         </div>
       </div>
       <div className="connectSection__wrapper">

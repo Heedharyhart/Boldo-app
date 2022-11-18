@@ -73,6 +73,11 @@
       padding: $BtnPadding;
       margin-bottom: 54px;
     }
+    .startNow-btn:hover {
+      background-color: $primaryLight;
+      border: 2px solid $secondaryColor;
+      color: $secondaryColor;
+    }
 
     &-list2,
     .second_style {

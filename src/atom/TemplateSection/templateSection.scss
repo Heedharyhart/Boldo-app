@@ -53,5 +53,9 @@
       line-height: 28px;
       padding: 16px 56px;
     }
+    button:hover {
+      background-color: $secondaryColor;
+      color: $primaryGreen;
+    }
   }
 }

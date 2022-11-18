@@ -59,6 +59,10 @@
     font-size: 20px;
     line-height: 28px;
     padding: $BtnPadding;
-    //  margin-bottom: 54px;
+  }
+
+  .loadMore-btn:hover {
+    background-color: $secondaryColor;
+    color: $primaryLight;
   }
 }
