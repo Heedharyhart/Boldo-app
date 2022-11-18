@@ -1,0 +1,43 @@
+
+@import "../../styles/styles.module.scss";
+.nav__wrapper {
+  @extend %containerAlign;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: $mainPadding;
+  width: 100%;
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+
+  &_item {
+    list-style: none;
+  }
+  &_item a {
+    text-decoration: none;
+    font-family: $secondaryFontFamily;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: $primaryLight;
+  }
+
+  &_item:nth-child(4) {
+    padding: 8px 40px;
+    background-color: $primaryLight;
+    color: $primaryColor;
+    border: 2px solid $primaryLight;
+    border-radius: 24px;
+  }
+
+  .login {
+    color: $primaryColor;
+  }
+}

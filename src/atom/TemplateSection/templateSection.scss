@@ -1,0 +1,57 @@
+@import "../../styles/styles.module.scss";
+
+.templateSection {
+  @extend %containerAlign;
+  height: 391px;
+  background-color: $secondaryColor;
+  border-radius: 12px;
+  margin-bottom: 84px;
+
+  &__heading {
+    padding: 72px 242px 50px 242px;
+    h2 {
+      color: $primaryLight;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 48px;
+      line-height: 72px;
+      text-align: center;
+    }
+  }
+  &__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 0px 298px 72px 298px;
+
+    input {
+      width: 360px;
+      height: 56px;
+      border: 2px solid $primaryLight;
+      border-radius: 240px;
+    }
+    input::placeholder {
+      color: $primaryColor;
+      font-family: $secondaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 20px;
+      line-height: 32px;
+      padding: 12px 158px 12px 32px;
+    }
+    button {
+      background: $primaryGreen;
+      border: 2px solid $primaryGreen;
+      border-radius: 56px;
+      color: $secondaryColor;
+      font-family: $secondaryFontFamily;
+      font-style: normal;
+      font-weight: $Bold;
+      font-size: 20px;
+      line-height: 28px;
+      padding: 16px 56px;
+    }
+  }
+}

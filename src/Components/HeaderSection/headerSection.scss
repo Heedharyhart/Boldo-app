@@ -1,0 +1,10 @@
+@import "../../styles/styles.module.scss"; 
+
+.header{
+  width: 100%;
+  background-color: $secondaryColor;
+  background-image: url(../../styles/icons/Ellipse-bg.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: cover contain;
+}

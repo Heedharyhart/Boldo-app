@@ -1,0 +1,40 @@
+@import "../../styles/styles.module.scss";
+
+.serviceSection {
+  @extend %containerAlign;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 82px 279px 78px 279px;
+  }
+
+  &__title {
+    color: $gray;
+    font-family: $secondaryFontFamily;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+
+  &__content {
+    color: $primaryColor;
+    font-family: $primaryFontFamily;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 48px;
+    line-height: 72px;
+    width: 842px;
+    height: 144px;
+  }
+
+  &__content  span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

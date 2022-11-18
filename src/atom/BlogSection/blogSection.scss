@@ -1,0 +1,64 @@
+@import "../../styles/styles.module.scss";
+
+.blogSection {
+  @extend %containerAlign;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 82px 279px 78px 279px;
+  }
+
+  &__title {
+    color: $gray;
+    font-family: $secondaryFontFamily;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 20px;
+    line-height: 32px;
+    margin-bottom: 12px;
+  }
+
+  &__content {
+    color: $primaryColor;
+    font-family: $primaryFontFamily;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 48px;
+    line-height: 72px;
+    width: 842px;
+    height: 144px;
+  }
+
+  &__content span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.blog-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 124px;
+
+  .loadMore-btn {
+    display: inline-block;
+    background-color: $primaryLight;
+    border: 2px solid $secondaryColor;
+    border-radius: 56px;
+    color: $secondaryColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: $Bold;
+    font-size: 20px;
+    line-height: 28px;
+    padding: $BtnPadding;
+    //  margin-bottom: 54px;
+  }
+}

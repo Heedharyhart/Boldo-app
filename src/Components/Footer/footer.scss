@@ -1,0 +1,52 @@
+@import "../../styles/styles.module.scss";
+
+.footer {
+  @extend %containerAlign;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 179px 134px 100px;
+  }
+  &__logo {
+    img {
+      padding-bottom: 40px;
+    }
+
+    p,
+    span {
+      color: $gray;
+      font-family: $secondaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 16px;
+      line-height: 28px;
+      width: 300px;
+      height: 84px;
+      margin-bottom: 64px;
+    }
+  }
+  &__landing, &__company {
+    ul {
+      li {
+        color: $gray;
+        list-style: none;
+        font-family: $secondaryFontFamily;
+        font-style: normal;
+        font-weight: $regular;
+        font-size: 20px;
+        line-height: 32px;
+        padding-bottom: 32px;
+      }
+      li:first-child {
+        color: $primaryColor;
+        font-family: $secondaryFontFamily;
+        font-style: normal;
+        font-weight: $Bold;
+        font-size: 20px;
+        line-height: 32px;
+      }
+    }
+  }
+}

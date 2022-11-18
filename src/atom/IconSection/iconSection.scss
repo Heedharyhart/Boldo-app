@@ -1,0 +1,22 @@
+@import "../../styles/styles.module.scss";
+.icon__section{
+  @extend %containerAlign;
+  padding: 0 113px 64px 114px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  img:last-child {
+    filter: grayscale(100%); 
+     opacity: 15%;
+  }
+
+  img:first-child {
+    opacity: 30%;
+  }
+
+  img:nth-child(2), img:nth-child(5) {
+    opacity: 70%;
+  }
+  
+}

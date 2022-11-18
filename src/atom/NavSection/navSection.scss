@@ -1,0 +1,76 @@
+@import "../../styles/styles.module.scss";
+
+.showcase {
+  &__img {
+    margin-bottom: 56px;
+  }
+  &__wrapper {
+    @extend %containerAlign;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 93px;
+
+    &_content {
+      width: 567px;
+      height: 310px;
+    }
+
+    &_header {
+      color: $primaryLight;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 48px;
+      line-height: 72px;
+      margin-bottom: 16px;
+    }
+
+    &_text {
+      color: $primaryLight;
+      font-family: $secondaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 16px;
+      line-height: 28px;
+      margin-bottom: 40px;
+    }
+
+    .template_btn {
+      background: $primaryGreen;
+      border: 2px solid $primaryGreen;
+      border-radius: 56px;
+      font-family: $secondaryFontFamily;
+      font-style: normal;
+      font-weight: $Bold;
+      font-size: 20px;
+      line-height: 28px;
+      padding: $BtnPadding;
+      margin-right: 24px;
+    }
+    .template_btn:hover {
+      background-color: $primaryLight;
+      border: 2px solid $primaryLight;
+      color: $primaryGreen;
+    }
+
+    .explore_btn {
+      background-color: $secondaryColor;
+      border: 2px solid $primaryLight;
+      border-radius: 56px;
+      color: $primaryLight;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: $Bold;
+      font-size: 20px;
+      line-height: 28px;
+      padding: $BtnPadding;
+    }
+
+    .explore_btn:hover {
+      background-color: $primaryLight;
+      color:$secondaryColor;
+    }
+  }
+}

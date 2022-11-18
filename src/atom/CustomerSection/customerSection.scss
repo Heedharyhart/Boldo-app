@@ -1,0 +1,59 @@
+@import "../../styles/styles.module.scss";
+
+.customerSection {
+  @extend %containerAlign;
+  padding: 120px 150px 56px 150px;
+
+  &__contentCard {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 56px;
+
+    h2 {
+      width: 500px;
+      height: 164px;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 28px;
+      line-height: 56px;
+    }
+  }
+  .customerSection__accodions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 16px;
+    gap: 84px;
+    border-bottom: 1px solid #c4c4c4;
+  }
+  span {
+    
+
+    img {
+      display: inline-block;
+    background-color: $secondaryColor;
+    padding: 12px 10px 8px 8px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    }
+    img:last-child {
+      margin-top: 20px;
+
+    }
+  }
+  h5 {
+    width: 387px;
+    font-family: $secondaryFontFamily;
+    font-style: normal;
+    font-weight: $regular;
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .buttom-width {
+    width: 500px;
+    height: 1px;
+    background: #c4c4c4;
+  }
+}

@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+$max-content-width: 1290px;
+$primaryColor: #000;
+$primaryLight: #fff;
+$primaryGray: #f1f1f1;
+$gray:#777777;
+$primaryGreen: #65e4a3;
+$secondaryColor: #0a2640;
+$primaryFontFamily: "Manrope" , sans-serif;
+$secondaryFontFamily: "Open Sans", sans-serif;
+$regular: 400;
+$medium: 500;
+$semiBold: 600;
+$Bold: 700;
+$mainPadding: 56px 100px 64px 100px;
+$BtnPadding: 16px 56px;
+
+ %containerAlign {
+  max-width: $max-content-width;
+  margin: 0 auto;
+}

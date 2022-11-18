@@ -1,0 +1,190 @@
+@import "../../styles/styles.module.scss";
+
+.connectSection {
+  @extend %containerAlign;
+
+  &__wrapper {
+    width: 1137px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    padding-left: 107px;
+    padding-bottom: 226px;
+
+    &__ImgWrapper {
+      width: 494px;
+      height: 506;
+
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+  &__content {
+    width: 493px;
+    height: 479px;
+
+    &_header {
+      color: $primaryColor;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 29px;
+      line-height: 52px;
+      display: flex;
+      align-items: center;
+      padding-bottom: 40px;
+    }
+
+    &-list {
+      display: flex;
+      align-items: center;
+      gap: 27px;
+
+      img {
+        display: inline-block;
+        background-color: $secondaryColor;
+        padding: 12px 10px 13px 10px;
+        border-radius: 50%;
+        margin-bottom: 25px;
+      }
+      span {
+        color: $primaryColor;
+        font-family: $secondaryFontFamily;
+        font-style: normal;
+        font-weight: $regular;
+        font-size: 16px;
+        line-height: 32px;
+        margin-bottom: 24px;
+      }
+    }
+    .startNow-btn {
+      background-color: $secondaryColor;
+      border: 2px solid $primaryLight;
+      border-radius: 56px;
+      color: $primaryLight;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: $Bold;
+      font-size: 20px;
+      line-height: 28px;
+      padding: $BtnPadding;
+      margin-bottom: 54px;
+    }
+
+    &-list2,
+    .second_style {
+      box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: $primaryLight;
+      padding: 16px 53px 16px 60px;
+      margin-bottom: 24px;
+      width: 500px;
+      font-family: $secondaryFontFamily;
+      font-style: normal;
+      font-weight: $semiBold;
+      font-size: 16px;
+      line-height: 28px;
+    }
+
+    .second_style {
+      background-color: $secondaryColor;
+      color: $primaryLight;
+    }
+  }
+  .connectImg {
+    position: relative;
+  }
+  &__Chartwrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 251px;
+    height: 388px;
+    position: absolute;
+    left: 342px;
+    top: 2128px;
+    background: $primaryLight;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    padding-top: 40px;
+
+    h4 {
+      color: $secondaryColor;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $Bold;
+      font-size: 24px;
+      line-height: 36px;
+      margin-bottom: 4px;
+      text-align: justify;
+    }
+
+    h6 {
+      color: $secondaryColor;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+  .pieImg {
+    position: relative;
+  }
+
+  &__pieWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 291px;
+    height: 388px;
+    position: absolute;
+    left: 854px;
+    top: 2881px;
+    background: $primaryLight;
+    box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    padding-top: 48px;
+    margin-bottom: 120px;
+
+    .pie__list {
+      margin-top: 23px;
+    }
+
+    .pie__list li {
+      list-style: none;
+      margin-bottom: 12px;
+      font-family: $primaryFontFamily;
+      font-style: normal;
+      font-weight: $regular;
+      font-size: 14px;
+    }
+    .list-item1::before {
+      content: "\2022";
+      color: #0dbbfc;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .list-item2::before {
+      content: "\2022";
+      color: #69e6a6;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .list-item3::before {
+      content: "\2022";
+      color: #c4c4c4;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+}
